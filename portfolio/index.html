@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedant Sawant | Full Stack Developer & AI/Machine Learning Enthusiast</title>
+    <meta name="description" content="Portfolio of Vedant Sawant, a Computer Science graduate pursuing M.Sc. IT with expertise in Full Stack Development and Machine Learning.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="particle-canvas"></canvas>
+    
+    <header class="glass-nav">
+        <div class="nav-container">
+            <a href="#" class="logo">VS<span>.</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content reveal">
+                <h1>Hi, I'm <span class="gradient-text">Vedant</span></h1>
+                <div class="typing-container">
+                    <span class="typing-text">I am </span><span id="typed-output" class="neon-text"></span><span class="cursor">|</span>
+                </div>
+                <p class="tagline">I am an Indie Developer, AI & Machine Learning Enthusiast, and Tech Builder.</p>
+                <div class="cta-group">
+                    <a href="#projects" class="btn btn-primary glow-effect">View Projects</a>
+                    <a href="mailto:sawantvedant.vs.399@gmail.com" class="btn btn-secondary glass-btn">Hire Me / Start Project</a>
+                </div>
+            </div>
+            <div class="hero-image reveal-right">
+                <div class="image-wrapper">
+                    <img src="professional-removebg-preview.png" alt="Vedant Profile Image" class="profile-img">
+                    <div class="glow-ring"></div>
+                </div>
+                <div class="hero-badge">
+                    <p class="name">Vedant Sawant</p>
+                    <p class="role">Indie Developer | AI & Machine Learning Enthusiast</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title reveal">About <span class="gradient-text">Me</span></h2>
+            <div class="about-container reveal">
+                <div class="about-text glass-card">
+                    <p>I am a B.Sc. Computer Science graduate currently pursuing my M.Sc. in Information Technology. My academic and professional pursuits are driven by a strong interest in Artificial Intelligence, Machine Learning, Web Development, and building practical technology solutions.</p>
+                    <p>I am actively seeking Internship and OJT opportunities to gain real industry experience and continually improve my technical skills. Alongside my academic journey, I independently design and develop projects and tailored solutions for clients and consumers as an Indie Developer. I thrive on solving real-world problems through technology and am always eager to learn about new tools and innovations.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title reveal">Technical <span class="gradient-text">Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card glass-card reveal">
+                    <i class="fas fa-code skill-icon"></i>
+                    <h3>Programming Languages</h3>
+                    <p>C, C++, Java, Python, JavaScript, PHP, SQL</p>
+                </div>
+                <div class="skill-card glass-card reveal" style="transition-delay: 0.1s">
+                    <i class="fas fa-globe skill-icon"></i>
+                    <h3>Web Technologies</h3>
+                    <p>HTML, CSS, JavaScript, PHP</p>
+                </div>
+                <div class="skill-card glass-card reveal" style="transition-delay: 0.2s">
+                    <i class="fas fa-laptop-code skill-icon"></i>
+                    <h3>Computer Science Fundamentals</h3>
+                    <p>Data Structures, Algorithms, DBMS</p>
+                </div>
+                <div class="skill-card glass-card reveal" style="transition-delay: 0.3s">
+                    <i class="fas fa-brain skill-icon"></i>
+                    <h3>Core Domains</h3>
+                    <p>Artificial Intelligence, Machine Learning</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title reveal">Featured <span class="gradient-text">Projects</span></h2>
+            <div class="projects-grid">
+                <div class="project-card glass-card reveal">
+                    <div class="project-content">
+                        <h3>TungstenTest – Online Examination System</h3>
+                        <p>A responsive web-based online examination system developed to manage exams, students, and faculty. It allows administrators to define exam patterns, while students can attempt online exams. It features AI-based proctoring, live exam monitoring, and automates exam report generation.</p>
+                        <div class="tech-stack">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass-card reveal" style="transition-delay: 0.1s">
+                    <div class="project-content">
+                        <h3>Smart Port & Service Availability Monitor</h3>
+                        <p>A web-based server monitoring tool developed using PHP and MySQL. It effectively monitors backend service health and checks MySQL database connectivity. By utilizing socket programming to detect server port availability, it seamlessly identifies downtime and connectivity failures, and displays real-time service status reports.</p>
+                        <div class="tech-stack">
+                            <span>PHP</span><span>MySQL</span><span>Socket Programming</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass-card reveal" style="transition-delay: 0.2s">
+                    <div class="project-content">
+                        <h3>Smart IoT Drainage System</h3>
+                        <p>An IoT-based drainage monitoring system designed to help prevent flooding. Features include real-time drainage alerts, a GPS tracking system, cloud data logging, sensor-based monitoring, and predictive maintenance analysis. Selected for Aavishkar Research Convention (Mumbai Zone 1) for civic technology innovation.</p>
+                        <div class="tech-stack">
+                            <span>IoT</span><span>Sensors</span><span>Cloud Systems</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2 class="section-title reveal">My <span class="gradient-text">Education</span></h2>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>M.Sc. Information Technology</h3>
+                        <p style="color: var(--cyan); font-weight: 500; font-family: var(--font-heading); margin-bottom: 5px;">2025 &ndash; 2027</p>
+                        <p>Vidyalankar School of Information Technology, Mumbai University</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>B.Sc. Computer Science</h3>
+                        <p style="color: var(--cyan); font-weight: 500; font-family: var(--font-heading); margin-bottom: 5px;">2022 &ndash; 2025</p>
+                        <p>Kirti M. Doongursee College, Mumbai University</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 class="section-title reveal">Get In <span class="gradient-text">Touch</span></h2>
+            <div class="contact-container reveal">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm actively seeking internship and OJT (On-the-Job Training) opportunities. If you're looking for a passionate developer or have creative ideas to discuss, my inbox is always open.</p>
+                    
+                    <div style="margin-bottom: 30px;">
+                        <p style="margin-bottom: 15px; font-size: 1.1rem;"><i class="fas fa-phone-alt" style="color: var(--cyan); margin-right: 15px;"></i> +91 97691 76657</p>
+                        <p style="font-size: 1.1rem;"><i class="fas fa-envelope" style="color: var(--cyan); margin-right: 15px;"></i> sawantvedant.vs.399@gmail.com</p>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/vedant-sawant-72a60233b" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="mailto:sawantvedant.vs.399@gmail.com" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form glass-card" action="https://formspree.io/f/xnjoyvjz" method="POST">
+                    <div class="input-group">
+                        <input type="text" id="name" name="name" required placeholder=" ">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" name="email" required placeholder=" ">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="tel" id="phone" name="phone" required placeholder=" ">
+                        <label for="phone">Contact Number</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary glow-effect btn-block">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <a href="#" class="logo">VS<span>.</span></a>
+            <div class="footer-socials">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/vedant-sawant-72a60233b" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:sawantvedant.vs.399@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; <span id="year"></span> Vedant Sawant. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div id="success-modal" class="modal">
+        <div class="modal-content glass-card">
+            <span class="close-modal">&times;</span>
+            <div class="modal-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>Thank you!</h3>
+            <p>Your message has been sent successfully.<br>I will get back to you soon.</p>
+            <button class="btn btn-primary glow-effect close-modal-btn">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
